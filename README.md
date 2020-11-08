@@ -1,5 +1,6 @@
 # cruiser-docker
-cruiser-docker is php container.
+cruiser-docker is php and node container.
+node container introduces typescript.
 
 https://ja.wikipedia.org/wiki/巡航戦車_Mk.I
 
@@ -11,9 +12,12 @@ https://ja.wikipedia.org/wiki/巡航戦車_Mk.I
 └── cruiser-docker   <- here
     ├── README.md
     ├── docker-compose.yml
-    └── php
-        ├── Dockerfile
-        └── php.ini
+    ├── php
+    │   ├── Dockerfile
+    │   └── php.ini
+    └── node
+        └── Dockerfile
+	
 ```
 
 # How to start
