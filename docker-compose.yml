@@ -9,3 +9,9 @@ services:
       - ./php/php.ini:/usr/local/etc/php/php.ini
     ports:
       - 80:80
+  node:
+    build: ./node
+    container_name: node
+    tty: true
+    volumes:
+      - ../cruiser/:/usr/src/app
