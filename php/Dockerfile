@@ -6,4 +6,4 @@ RUN apt-get install -y libzip-dev zip && docker-php-ext-install zip
 # install vim
 RUN ["apt-get", "install", "-y", "vim"]
 
-WORKDIR /var/www/leichttraktor
+WORKDIR /var/www/cruiser
